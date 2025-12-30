@@ -1,11 +1,11 @@
-# zan-money
+# @zan-shop/money
 
 Library for precise money operations with multi-currency support.
 
 ## Installation
 
 ```bash
-npm install zan-money
+npm install @zan-shop/money
 ```
 
 ## Features
@@ -20,7 +20,7 @@ npm install zan-money
 ## Quick Start
 
 ```typescript
-import { Money, MoneyFactory, CurrencyEnum } from 'zan-money';
+import { Money, MoneyFactory, CurrencyEnum } from '@zan-shop/money';
 
 // Create money instances
 const price = MoneyFactory.fromNumber(100.50, CurrencyEnum.PLN);
@@ -320,7 +320,7 @@ enum CurrencyEnum {
 ### Basic Usage
 
 ```typescript
-import { MoneyFactory, CurrencyEnum } from 'zan-money';
+import { MoneyFactory, CurrencyEnum } from '@zan-shop/money';
 
 const price = MoneyFactory.fromNumber(100, CurrencyEnum.PLN);
 const tax = MoneyFactory.fromNumber(23, CurrencyEnum.PLN);
