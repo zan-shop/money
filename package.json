@@ -1,5 +1,5 @@
 {
-  "name": "zan-money",
+  "name": "@zan-shop/money",
   "version": "0.1.0",
   "description": "Library for money operations",
   "main": "dist/index.js",
