@@ -423,4 +423,4 @@ console.log(result.toString()); // "3.33"
 
 ## License
 
-UNLICENSED - Private library
+MIT

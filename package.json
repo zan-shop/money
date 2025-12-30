@@ -1,7 +1,7 @@
 {
   "name": "@zan-shop/money",
   "version": "0.1.0",
-  "description": "Library for money operations",
+  "description": "Library for precise money operations with multi-currency support",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -9,18 +9,24 @@
   ],
   "scripts": {
     "build": "tsc",
-    "prepare": "npm run build",
     "watch": "tsc --watch",
     "test": "jest",
     "test:watch": "jest --watch",
-    "test:coverage": "jest --coverage"
+    "test:coverage": "jest --coverage",
+    "prepublishOnly": "npm run build"
   },
   "keywords": [
-    "money"
+    "money",
+    "currency",
+    "decimal",
+    "bigdecimal",
+    "bignumber",
+    "finance",
+    "monetary",
+    "typescript"
   ],
-  "author": "",
-  "license": "UNLICENSED",
-  "private": true,
+  "author": "zan shop",
+  "license": "MIT",
   "devDependencies": {
     "@jest/globals": "^29.7.0",
     "@types/jest": "^29.5.14",
@@ -36,5 +42,16 @@
     "bignumber.js": "^9.3.1",
     "class-validator": "^0.14.3",
     "reflect-metadata": "^0.2.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zan-shop/zan-money.git"
+  },
+  "homepage": "https://github.com/zan-shop/zan-money#readme",
+  "bugs": {
+    "url": "https://github.com/zan-shop/zan-money/issues"
   }
 }
