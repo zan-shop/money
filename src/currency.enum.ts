@@ -29,6 +29,15 @@ export enum CurrencyEnum {
   IDR = 'IDR',
   MYR = 'MYR',
   PHP = 'PHP',
+  SAR = 'SAR',
+  KWD = 'KWD',
+  QAR = 'QAR',
+  OMR = 'OMR',
+  AED = 'AED',
+  BHD = 'BHD',
+  IQD = 'IQD',
+  SYP = 'SYP',
+  EGP = 'EGP',
 }
 
 export function isValidCurrencyCode(value: any): value is CurrencyEnum {
