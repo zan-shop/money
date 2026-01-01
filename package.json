@@ -1,6 +1,6 @@
 {
   "name": "@zan-shop/money",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Library for precise money operations with multi-currency support",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -48,10 +48,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zan-shop/zan-money.git"
+    "url": "git+https://github.com/zan-shop/money.git"
   },
-  "homepage": "https://github.com/zan-shop/zan-money#readme",
+  "homepage": "https://github.com/zan-shop/money#readme",
   "bugs": {
-    "url": "https://github.com/zan-shop/zan-money/issues"
+    "url": "https://github.com/zan-shop/money/issues"
   }
 }
