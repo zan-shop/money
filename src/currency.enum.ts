@@ -38,6 +38,11 @@ export enum CurrencyEnum {
   IQD = 'IQD',
   SYP = 'SYP',
   EGP = 'EGP',
+  ILS = 'ILS',
+  IRR = 'IRR',
+  JOD = 'JOD',
+  LBP = 'LBP',
+  YER = 'YER',
 }
 
 export function isValidCurrencyCode(value: any): value is CurrencyEnum {
